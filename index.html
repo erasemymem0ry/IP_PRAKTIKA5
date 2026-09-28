@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=ytader, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <!-- ======== ИСХОДНАЯ ВЕРСТКА (НЕ ТРОГАЕМ) ======== -->
+    <header class="header">
+        <nav>
+            <div class="logo"><i class="fa-solid fa-hippo fa-xl fa-fade"></i></div>
+            <div class="navigation">
+                <a href="#">Главная</a>
+                <a href="#Portfolio">Портфолио</a>
+                <a href="#Contact">Контакты</a>
+            </div>
+        </nav>
+        <div class="container">
+
+            <div class="header-row">
+            <img src="img/photo.jpg" srcset="img/photo@2x.jpg" alt="" class="header-img">
+            <div class="header-desc">
+                <h1>Кирилл Рассамаха</h1>
+                <p class="header-text">фрилансер, веб-разработчик,<br> создание сайтов</p>
+                <div class="header-btns">
+                    <button class="btn">Портфолио</button>
+                     <button class="btn-outline">Контакты</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ======== БЛОК, ДОБАВЛЕННЫЙ ВТОРЫМ РАЗРАБОТЧИКОМ ======== -->
+    <main>
+        <!-- Секция: Портфолио -->
+        <section id="Portfolio" class="projects">
+            <div class="container">
+                <h2 class="projects-title">Портфолио</h2>
+                <div class="projects-list">
+                    <div class="project-card">
+                        <div class="project-frame">
+                            <img src="img/project-01.jpg" srcset="img/project-01@2x.jpg" alt="Интерьер мебели" class="project-image">
+                        </div>
+                        <span class="project-name">Сайт магазина мебели</span>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-frame">
+                            <img src="img/project-02.jpg" srcset="img/project-02@2x.jpg" alt="Туристическое агентство" class="project-image">
+                        </div>
+                        <span class="project-name">Сайт туристического агентства</span>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-frame">
+                            <img src="img/project-03.jpg" srcset="img/project-03@2x.jpg" alt="Жилой комплекс" class="project-image">
+                        </div>
+                        <span class="project-name">Сайт жилого комплекса</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция: Контакты -->
+        <section id="Contact" class="footer-contacts">
+            <div class="container">
+                <h2 class="footer-contacts-title">Контакты</h2>
+                <div class="contact-rows">
+                    <a href="#" class="contact-item">
+                        <i class="fa-brands fa-telegram contact-item-icon tg-icon"></i>
+                        <span class="contact-item-label">Написать в Telegram</span>
+                    </a>
+                    <a href="#" class="contact-item">
+                        <i class="fa-solid fa-comment-dots contact-item-icon max-icon"></i>
+                        <span class="contact-item-label">Отправить в Max</span>
+                    </a>
+                    <a href="#" class="contact-item">
+                        <i class="fa-brands fa-vk contact-item-icon vk-icon"></i>
+                        <span class="contact-item-label">Связаться Вконтакте</span>
+                    </a>
+                </div>
+
+                <div class="footer-copy">
+                    <p>© Кирилл Рассамаха</p>
+                    <p>HTML верстка, создание сайтов</p>
+                    <p>ДОНЕЦК</p>
+                    <p class="footer-note"><i class="fa-solid fa-laptop-code"></i> Макет сверстан нативно</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- ======== КОНЕЦ БЛОКА ВТОРОГО РАЗРАБОТЧИКА ======== -->
+
+</body>
+</html>
