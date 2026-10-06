@@ -288,3 +288,62 @@ h1{
         padding: 60px 0 30px;
     }
 }
+.container {
+    max-width: 1100px;
+}
+
+.projects-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 40px 30px;
+    align-items: start;
+}
+
+.project-card:nth-child(3) {
+    grid-column: 1 / -1;
+    max-width: 700px;
+    justify-self: center;
+}
+
+.project-card {
+    width: 100%;
+    max-width: 100%;
+}
+
+.contact-item {
+    transition: background-color .3s ease,
+                color .3s ease,
+                transform .3s ease,
+                border-color .3s ease;
+}
+.contact-item:hover {
+    background-color: #fff;
+    color: #252525;
+    transform: scaleX(.94);
+    border-color: #1782CF;
+}
+.contact-item:hover .contact-item-icon {
+    color: #1782CF;
+}
+
+.project-image {
+    transition: transform .45s ease;
+}
+.project-card:hover .project-image {
+    transform: rotate(-1.5deg) scale(1.03);
+}
+
+.footer-contacts {
+    border-radius: 60px 0 0 0;
+    margin-top: 0;
+}
+
+.btn:hover {
+    background-color: #1782CF;
+    transform: scale(.96);
+}
+.btn-outline:hover {
+    background-color: #fff;
+    color: #000;
+    transform: scale(.96);
+}
